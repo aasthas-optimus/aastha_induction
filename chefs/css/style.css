@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+.c-topheader{
+    height:48px;
+    padding-bottom:5px;
+}
+
+.c-topheader__left{
+    float: left;
+    margin-top: 10px;
+
+}
+.c-topheader__left p{
+    color: black;
+    padding-left: 13px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.c-topheader__right
+{
+    float: right;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.c-topheader__find{
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 48px;
+    float: left;
+}
+.c-topheader__search{
+    float: left;
+}
+.c-topheader__right p{
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    padding-right: 13px;
+}
+
+.clearfix:after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.c-topheader{
+    text-align: center;
+    color: #ffffff;
+}
+
+#chef-logo{
+    margin-top: 15px;
+    width: 85px;
+    height: 23px;
+
+
+}
+.c-topheader__left img{
+    width: 27.5px;
+    height: 21.5px;
+    margin-left: 10px;
+}
+
+#find-icon{
+    width: 24px;
+    height: 24px;
+    padding-right: 20px;
+}
+
+#cart-icon{
+    width: 24.5px;
+    height: 24.5px;
+    margin-right: 10px;
+
+}
+
+.c-innerheader{
+    height: 46px;
+    background-color: red;
+    text-shadow: #940000;
+    padding-top:8px;
+}
+
+.c-innerheader__left{
+    float: left;
+    margin-left: 10px;
+    color: #ffffff;
+
+}
+
+.c-innerheader__right{
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    margin-right:10px;
+}
+
+.c-innerheader__left1 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.c-innerheader__left2 {
+    font-weight: regular;
+    font-size: 12px;
+}
+
+
+ .c-banner{
+     background-image: url("../images/BACHGROUND IMAGE 1.png");
+     height: 150px;
+     background-repeat: no-repeat;
+     background-size: 100% 150px;
+}
+
+#c-banner__textleft{
+    float: left;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+#c-banner__textright{
+    color: red;
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 12px;
+    color: #cc0000;
+}
+
+.c-banner__text{
+    position: relative;
+    top: 8%;
+    background-color: #fff;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.85;
+}
+.c-buttons__red{
+    height: 35px;
+    background-color: #cc0000;
+    border-radius: 2px;
+    background: linear-gradient(#9a170a,#cc0000);
+    width: 48.2%;
+    color: white;
+    float: left;
+    border: 1px solid #780000;
+    outline: none;
+    margin-top: 10px;
+}
+.c-buttons__green
+{
+    height: 35px;
+    background-color: #738b02;
+    border-radius: 2px;
+    background: linear-gradient(#5a6c24,#3c4e03);
+    width: 48.2%;
+    color: white;
+    float: right;
+    border: 1px solid #3c4e03;
+    outline: none;
+    margin-top: 10px;
+}
+.c-buttons{
+    padding: 0px 10px;
+}
+button > span
+{
+      padding: 0px 8px;
+      line-height : 24px;
+      font-weight: bolder;
+      font-size: 16px;
+}
+.c-favorites {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #171717;
+    padding: 0px 0px 9px 0px;
+    border-bottom: 1px solid #dadada;
+    margin: 11px 10px 0px;
+}
+
+
+.c-top-choice{
+    float: left;
+    width: 50%;
+    padding: 15px 10px;
+    padding-bottom: 0px;
+    font-wight: bold;
+    box-sizing: border-box;
+}
+.c-choice-image img{
+    width: 135px;
+    height: 135px;
+
+}
+a{
+    text-decoration:  none;
+    background: transparent;
+}
+.c-top-choice .c-choice-description{
+    margin: 5px 0px;
+    padding: 5px 0px;
+    line-height: 18px;
+}
+.c-choice-stars img{
+    width: 12px;
+    height: 12px;
+}
+.c-special-offer{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ee0101;
+}
+.c-choice-description a{
+    color: #000000;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 14px;
+}
+.c-cost{
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.c-footer{
+    text-align: center;
+}
+.c-backtotop-text{
+    margin-top: -3px;
+    font-size: 14px;
+    font-weight: bold;
+    font-color:#000000;
+}
+
+ .c-backtotop-image{
+    background-image: url("../images/ARROW IN CIRCLE.png");
+    background-size: 14px 14px;
+    background-position: 2px 2px;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.c-show{
+    background-color: #ebebeb;
+    padding: 4px 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.c-show__confidence{
+    font-size: 11px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom:10px;
+}
+.c-show__contact{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #195796;
+}
+.c-link-facebook{
+    background-image: url("../images/FACEBOOK ICON.png");
+
+}
+.c-link-common{
+    display: inline-block;
+    background-size: 32px 32px;
+    background-position: 1px 1px;
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+    margin: 0px 6.5px;
+}
+.c-link-twitter{
+    background-image: url("../images/TWITTER ICON.png");
+}
+.c-link-googleplus{
+    background-image: url("../images/GOOGLE PLUS ICON.png");
+}
+.c-link-p{
+    background-image:url("../images/PINTEREST ICON.png");
+}
+.c-footer .c-bottom div {
+  text-align: center;
+ }
+ .c-sitelinks{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left:5px;
+ }
+ .c-sitelinks span{
+     margin-right: 15px;
+     color: #195796;
+     text-decoration: underline;
+ }
+.c-copyright span{
+    text-decoration: none;
+    color: #515155;
+    font-size: 10px;
+}
+.c-copyright{
+    margin-top: 10px;
+}
+.c-red {
+    color: #ee0101;
+}
+.c-green{
+    color:#738b02;
+}
